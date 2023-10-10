@@ -18,4 +18,13 @@ These tests are used to show the different capabilities of JUnit-5.
 The project was built and ran on **IntelliJ IDEA 2023.2.2 (Community Edition)**
 - To run the project press on the green arrow on the desired class of tests;
 - To run the desired test, on the test class, click on the green arrow for that method;
-- To run the tests using Maven, click on Maven, then on tests.
+- To run the tests using Maven, click on Maven then: clean, compile, test and then install.
+- To run the tests using the terminal, run the following commands in order:
+  - `mvn clean compile test package`
+  - `mvn install`
+  - in case the command does not work add " .\ " to the beggining (Ex: `.\mvn clean compile test package`)
+  - Explanation:
+    - `mvn` runs maven
+    - `clean` deletes the target folder
+    - `compile` compiles the code into machine lang
+    - `package` in the new 'target' directory it creates a .jar file that can be used by you or someone else
