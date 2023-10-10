@@ -12,6 +12,7 @@ These tests are used to show the different capabilities of JUnit-5.
 
 ## Testing Software Used
  - JUnit-5
+ - this project is using JDK-21;
 
 ## Running the project
 The project was built and ran on **IntelliJ IDEA 2023.2.2 (Community Edition)**
