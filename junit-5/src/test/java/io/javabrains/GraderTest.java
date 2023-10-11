@@ -85,7 +85,7 @@ class GraderTest {
         }
 
         @Test
-git        void negativeOneShouldReturnIllegalArgumentException() {
+        void negativeOneShouldReturnIllegalArgumentException() {
             assertThrows(IllegalArgumentException.class,
                     ()-> { // lambda here
                         grader.determineLetterGrade(-1);
